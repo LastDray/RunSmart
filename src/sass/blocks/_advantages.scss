@@ -1,0 +1,52 @@
+.advantages {
+    padding: 73px 0 85px 0;
+    min-height: 473px;
+    background-color: #F6F6F6;
+    &__cards {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+    &__card {
+        max-width: 274px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__header {
+            display: block;
+            margin-top: 30px;
+            color: #0D0D0D;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &__descr {
+            display: block;
+            margin-top: 20px;
+            color: #0D0D0D;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 18px;
+            a {
+                color: #F00;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                text-decoration-line: underline;
+            }
+        }
+    }
+}

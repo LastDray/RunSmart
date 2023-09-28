@@ -1,0 +1,41 @@
+.feedback {
+    min-height: 920px;
+    margin-bottom: 46px;
+    &__card {
+        display: flex;
+        align-items: flex-start;
+
+        &__img {
+            margin-right: 60px;
+        }
+        &__header {
+            color: #0D0D0D;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+        &__subheader {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: normal;
+        }
+        &__review {
+            color: #0D0D0D;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px; /* 150% */
+        }
+    }
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        min-height: 830px;
+    }
+    h2 {
+        margin-bottom: 60px;
+    }
+}

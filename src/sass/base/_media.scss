@@ -1,0 +1,230 @@
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .title {
+        text-align: center;
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel {
+        .tns-outer {
+            width: 600px;
+            margin: 0 auto;
+        }
+    }
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+    .prev, .next {
+        display: none;
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            margin-top: 12px;
+            font-size: 20px;
+        }
+    }
+    .header {
+        justify-content: space-around;
+        &__official {
+            display: none;
+        }
+    }
+    .advantages {
+        &__cards {
+            margin-top: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__card {
+            margin-top: 30px;
+        }
+    }
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .consultation {
+        &__descr {
+            margin-top: 10px;
+        }
+    }
+    .carousel {
+        .tns-outer {
+            width: 500px;
+            margin: 0 auto;
+        }
+    }
+    .catalog {
+        
+        &__tab {
+            width: 150px;
+            font-size: 16px;
+        }
+    }
+    .feedback {
+        margin-bottom: 16px;
+        &__card {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            margin-top: 20px;
+        }
+    }
+    .promo {
+        padding-bottom: 40px;
+        &__wrapper {
+            align-items: center;
+            margin-top: 30px;
+        }
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+        &__icons {
+            margin-top: 30px;
+            flex-direction: column;
+            max-width: 100%;
+            align-items: flex-start;
+        }
+        &__icon {
+            margin: 0 auto;
+            width: 240px;
+            img {
+                display: inline-block;
+                margin-right: 20px;
+
+            }
+            text-align: left;
+
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 20px;
+        }
+    }
+    .advantages {
+        padding: 20px 0 30px 0;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .consultation {
+        &__descr {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    .carousel {
+        padding: 30px 0 40px 0;
+        .tns-outer#tns1-ow {
+            width: 300px;
+            margin: 0 auto;
+        }
+    }
+    .catalog {
+        padding-bottom: 30px;
+        &__tab {
+
+            width: 85px;
+            font-size: 9.5px;
+        }
+    }
+    .feedback {
+        margin-bottom: 16px;
+        &__card {
+            margin-bottom: 30px;
+            flex-direction: column;
+            &__img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            &__header {
+                text-align: center;
+            }
+            &__subheader {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            &__review {
+                margin-left: 15px;
+            }
+        }
+    }
+    
+    .footer {
+        &__info {
+            max-width: 100%;
+            padding: 30px 10px 60px 10px;
+            height: 200px;
+        }
+        &__addr {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    }
+    .modal {
+        left: calc(50% - 20px);
+        width: 280px;
+        padding: 28px 30px 30px 30px;
+        &__subtitle {
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+        &__descr {
+            font-size: 11px;
+        }
+    }
+    .feed-form {
+        margin-top: 36px;
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+    }
+}
